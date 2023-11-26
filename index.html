@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practica02.css">
+    <script src="practica02.js"></script>
+    <title>Página de Computación</title>
+</head>
+<body>
+    <div class="Encabezado">
+        <header id="fondoHeader">
+            <button id="btnModo" onclick="CambiarEstiloCSS()">Modo oscuro</button>
+            <h1>Página de Computación</h1>
+        </header>
+        
+        <nav id="fondoNav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+
+    <div class="content">
+        <main>
+            <section class="feature" id="s01">
+                <h2></h2>
+                <div class="product"> <!-- Repite este bloque para cada producto -->
+                    <img src="tecnologia.jpg" alt="Producto 1" >
+                    <h3 class="parrafo">Primeras Computadoras</h3>
+                    <p class="parrafo">La historia de la computadora se remonta a la antigüedad, con dispositivos como el ábaco siendo
+                        utilizados
+                        para cálculos simples. Sin embargo, el concepto moderno de computadora comenzó a desarrollarse en
+                        el siglo XIX.</p>
+                </div>
+                <div class="product"> <!-- Repite este bloque para cada producto -->
+                    <h2 class="parrafo">Revolución Digital</h2>
+                    <p class="parrafo">La década de <strong>1970</strong> marcó el inicio de la revolución digital con la invención de los
+                        <em>microprocesadores</em>. Esto llevó a la creación de las <strong>computadoras
+                            personales</strong>, como la <em>Apple I</em> y la <em>IBM PC</em>, haciendo que las
+                        computadoras fueran más accesibles para el público en general.
+                    </p>
+                    <p class="parrafo">La <a href="https://es.wikipedia.org/wiki/Apple_I" target="_blank">Apple I</a>, lanzada en
+                        <strong>1976</strong> por Steve Jobs y Steve Wozniak, fue una de las primeras computadoras
+                        personales y marcó el inicio de la empresa <em>Apple</em>.
+                    </p>
+                </div>
+            </section>
+
+            <section class="about" id="s02">
+                <h2>Sobre Nosotros</h2>
+                <p>Somos una empresa dedicada a...</p>
+            </section>
+        </main>
+    </div>
+
+    <footer id="fondoFooter">
+        <p>&copy; 2023 Página de Computación. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
